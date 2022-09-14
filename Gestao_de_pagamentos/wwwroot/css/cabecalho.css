@@ -1,0 +1,101 @@
+.cabecalho {
+    background-color: var(--branco);
+
+    width: 100%;
+
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.6rem 1.8rem;
+
+    border-bottom: 1px solid var(--borda-cabecalho-mobile);
+}
+
+.cabecalho__box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho__box__logo{
+    width: 14rem;
+}
+
+.cabecalho__logo{
+    width: 100%;
+}
+
+.cabecalho__box__busca{
+    display: flex;
+    position: relative;
+}
+
+.cabecalho__navegacao{
+    display: none;
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--cor-de-fundo);
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #000000;
+    min-height: 0;
+    margin-bottom: 0;
+}
+
+.cabecalho__box__busca__botao{
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    outline: none;
+    background-color: var(--branco);
+    font-size: 1.8rem;
+}
+
+@media screen and (min-width: 768px) {
+
+    .cabecalho {
+        padding: 1.6rem 3.5rem;
+    }
+
+    .cabecalho__box__logo{
+        width: 16rem;
+    }
+
+    .cabecalho__box__busca{
+        margin-right: auto;
+    }
+
+    .cabecalho__navegacao {
+        /* background-image: url(../imgs/barra-pesquisa.png); */
+        display: inline-block;
+
+    }
+
+    .cabecalho__box__busca__botao{
+        background-color: var(--cor-de-fundo);
+    }
+
+    .cabecalho__box > a{
+        order: 3;
+    }
+
+    .cabecalho__box{
+        gap: 32px;
+    }
+
+}
+
+
+@media screen and (min-width: 1440px) {
+    .cabecalho {
+        padding: 3.7rem 15.2rem;
+    }
+}

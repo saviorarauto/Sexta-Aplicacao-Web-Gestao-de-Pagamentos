@@ -1,0 +1,97 @@
+﻿@model IEnumerable<Gestao_de_pagamentos.Models.Pagamento>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="table--responsive">
+    <table class="table table-responsive">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Processo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Contrato)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Responsavel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Substituto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Assunto)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Fornecedor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DiasParaVencimento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataVencimento)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.OrigemDocumentoFiscal)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ValorGlobalContrato)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Processo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Contrato)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Responsavel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Substituto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Assunto)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Fornecedor)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DiasParaVencimento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataVencimento)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.OrigemDocumentoFiscal)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ValorGlobalContrato)
+                    </td>
+                    <td>
+                        <div class="table-btn">
+                            <a asp-action="Edit" asp-route-id="@item.Id">
+                                <i class="fa-solid fa-pen-to-square fa-2x" style="color: black;"></i>
+                            </a>
+                            <a asp-action="Details" asp-route-id="@item.Id">
+                                <i class="fa-solid fa-eye fa-2x"></i>
+                            </a>
+                            <a asp-action="Delete" asp-route-id="@item.Id">
+                                <i class="fa-solid fa-trash fa-2x" style="color: indianred;"></i>
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<a class="btn btn-primary" asp-action="Create">Incluir novo Pagamento</a>

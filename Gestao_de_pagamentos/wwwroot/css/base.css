@@ -1,0 +1,58 @@
+:root {
+    /*Root é "maior" que o html*/
+
+    /* --nome-da-variavel: valor */
+
+    --branco: #FFF;
+    --azul-claro: #EAF2FD;
+    --azul-clarao: #2A7AE4;
+    --vermelho-forte: #B72E2E;
+    --cinza-escuro: #464646;
+    --cinza-claro: #C8C8C8;
+    --cinza-medio: #D9D9D9;
+    --preto-cinza: #A2A2A2;
+
+    --fonte-link: #0084FF;
+    --fonte-cinza: #666;
+    --borda-cabecalho-mobile: #103D4A;
+    --bg-rodape: #333;
+    --bg-chamada-mobile: #00161C;
+
+    --planos-cartao-start: #56CCF2;
+    --planos-cartao-ultra: #B04CD9;
+    --planos-cartao-mega: #E33B3B;
+
+    --raleway: 'Raleway', sans-serif;
+
+    --cor-de-fundo: #F5F5F5;
+    --cor-de-link: #000;
+
+}
+
+html {
+    min-width: 360px;
+    max-width: 1440px;
+    font-size: 62.5%;
+    color: var(--cinza-escuro);
+    scroll-behavior: smooth;
+    margin: auto;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-de-fundo);
+    font-family: var(--raleway);
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}

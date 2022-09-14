@@ -1,0 +1,11 @@
+.footer{
+    padding: 3.2rem;
+    background-color: var(--branco);
+}
+
+.footer__rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

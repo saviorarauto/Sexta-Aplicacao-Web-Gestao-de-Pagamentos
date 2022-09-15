@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p2qABCgoPXuxJGAGTA8T+/U5q0q28FQMQyBIRZ3aDpbYZNXXoesoKRkL4LBILJg3JYyVRUtSg9lD9xDAh8T2vQ==",
+  "dgSpecHash": "GsCGxPc03EP/2qctUhI3SmyqoC1Eduu7iD5BpXumb6VKRQUhuqaXTTzzAPijPkY+nsNLM+O2plxQbrtJtwWaJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\usuario\\OneDrive\\Documentos\\MAGNO COSTA\\PROGRAMAÇÃO\\Projetos Pessoais\\Gestao_de_pagamentos\\Gestao_de_pagamentos\\Gestao_de_pagamentos.csproj",
+  "projectFilePath": "E:\\Novo Arquivos\\Documentos\\MAGNO COSTA\\PROGRAMAÇÃO\\Projetos Pessoais\\Gestao_de_pagamentos\\Gestao_de_pagamentos\\Gestao_de_pagamentos.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\usuario\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\usuario\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",

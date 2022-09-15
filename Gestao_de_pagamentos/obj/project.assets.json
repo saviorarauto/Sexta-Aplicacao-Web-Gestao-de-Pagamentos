@@ -10628,11 +10628,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\usuario\\OneDrive\\Documentos\\MAGNO COSTA\\PROGRAMAÇÃO\\Projetos Pessoais\\Gestao_de_pagamentos\\Gestao_de_pagamentos\\Gestao_de_pagamentos.csproj",
+      "projectUniqueName": "E:\\Novo Arquivos\\Documentos\\MAGNO COSTA\\PROGRAMAÇÃO\\Projetos Pessoais\\Gestao_de_pagamentos\\Gestao_de_pagamentos\\Gestao_de_pagamentos.csproj",
       "projectName": "Gestao_de_pagamentos",
-      "projectPath": "C:\\Users\\usuario\\OneDrive\\Documentos\\MAGNO COSTA\\PROGRAMAÇÃO\\Projetos Pessoais\\Gestao_de_pagamentos\\Gestao_de_pagamentos\\Gestao_de_pagamentos.csproj",
+      "projectPath": "E:\\Novo Arquivos\\Documentos\\MAGNO COSTA\\PROGRAMAÇÃO\\Projetos Pessoais\\Gestao_de_pagamentos\\Gestao_de_pagamentos\\Gestao_de_pagamentos.csproj",
       "packagesPath": "C:\\Users\\usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\usuario\\OneDrive\\Documentos\\MAGNO COSTA\\PROGRAMAÇÃO\\Projetos Pessoais\\Gestao_de_pagamentos\\Gestao_de_pagamentos\\obj\\",
+      "outputPath": "E:\\Novo Arquivos\\Documentos\\MAGNO COSTA\\PROGRAMAÇÃO\\Projetos Pessoais\\Gestao_de_pagamentos\\Gestao_de_pagamentos\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
